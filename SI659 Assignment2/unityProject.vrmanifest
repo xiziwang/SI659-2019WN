@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.si659assignment2.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\xiziwang\\Desktop\\Lucy\\SI659-2019WN\\SI659 Assignment2\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "SI659 Assignment2 [Testing]"
+        }
+      }
+    }
+  ]
+}
