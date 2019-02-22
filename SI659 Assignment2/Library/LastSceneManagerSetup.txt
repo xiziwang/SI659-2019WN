@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/A2_task_II.II.unity
+- path: Assets/A2_task_III.II.unity
   isLoaded: 1
   isActive: 1

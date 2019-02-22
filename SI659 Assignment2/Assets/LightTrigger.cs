@@ -5,14 +5,21 @@ using UnityEngine;
 public class LightTrigger : MonoBehaviour {
     public GameObject leftLight;
     public GameObject rightLight;
+    public AudioSource audio;
+
     private void OnTriggerEnter(Collider other)
     {
-        leftLight.SetActive(true);
-        rightLight.SetActive(true);
-    }
-    private void OnTriggerExit(Collider other)
-    {
-        leftLight.SetActive(false);
-        rightLight.SetActive(false);
+        audio.Play();
+        if (leftLight.activeSelf)
+        {
+            leftLight.SetActive(false);
+            rightLight.SetActive(false);
+        }
+        else
+        {
+            leftLight.SetActive(true);
+            rightLight.SetActive(true);
+        }
+
     }
 }
